@@ -4,7 +4,7 @@
     
     I am Joseph Martin, currently an undergraduate Computer Science student at the <a href="https://unc.edu.ph/">University of Nueva Caceres</a>.
     My interest lies in Front-End Development, and I have a solid foundation in HTML, CSS, JavaScript, and VueJS.
-    Additionally, I am familiar with tools and technologies such as Git & GitHub, Tailwind, Firebase, Pinia, TypeScript, PHP, MySQL, and UI/UX design.
+    Additionally, I am familiar with tools and technologies such as Git & GitHub, Tailwind, Firebase, Pinia, TypeScript, and UI/UX design.
 
     I actively engage in community discussions, collaborate on open-source projects, and connect with fellow developers 
     to stay updated in the field and further expand my knowledge and skills.

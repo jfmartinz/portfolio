@@ -1,19 +1,23 @@
 <template>
-  <pre>
-    Hello! 👋🏻 
-    
-    I am Joseph Martin, currently an undergraduate Computer Science student at the <a href="https://unc.edu.ph/">University of Nueva Caceres</a>.
-    My interest lies in Front-End Development, and I have a solid foundation in HTML, CSS, JavaScript, and VueJS.
-    Additionally, I am familiar with tools and technologies such as Git & GitHub, Tailwind, Firebase, Pinia, TypeScript, and UI/UX design.
-
-    I actively engage in community discussions, collaborate on open-source projects, and connect with fellow developers 
-    to stay updated in the field and further expand my knowledge and skills.
-    
-    When I am not coding, I like to spend my time on listening to music, reading, and
-    solitude.
-
-    🌐 <a href="https://linktr.ee/jfmartinz" target="_blank">Connect with Me</a> 
-  </pre>
+  <div class="content">
+    <p>
+      Hello! 👋🏻<br /><br />
+      I am Joseph Martin, currently an undergraduate Computer Science student at the
+      <a href="https://unc.edu.ph/" target="_blank">University of Nueva Caceres</a>. My interest
+      lies in front-end development.
+    </p>
+    <br />
+    <p>
+      I actively participate in and contribute to OPEN-SOURCE and
+      <a href="https://mlh.io/" target="_blank">HACKATHONS</a>. This helps me stay updated in the
+      field, build my online presence, make friends, and build my skills and knowledge while having
+      fun.
+    </p>
+    <br />
+    <p>When not coding, I enjoy spending my time listening to music, reading, and solitude.</p>
+    <br />
+    🌐 <a href="https://linktr.ee/jfmartinz" target="_blank">Connect with Me</a>
+  </div>
 
   <div class="date">
     // Last updated on 13/6/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
@@ -31,8 +35,10 @@ export default {
 </script>
 
 <style scoped>
-pre {
+.content {
+  padding: 0 1rem;
   margin-top: 20px;
+  max-width: 800px;
 }
 
 .date {

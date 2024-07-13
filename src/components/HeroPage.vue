@@ -20,7 +20,7 @@
   </div>
 
   <div class="date">
-    // Last updated on 26/6/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
+    // Last updated on 13/7/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
     <p>Temporary</p>
   </div>
 </template>

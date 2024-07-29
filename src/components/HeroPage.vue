@@ -1,22 +1,32 @@
 <template>
   <div class="content">
+    <h1>Joseph Martin</h1>
+
     <p>
-      Hello! 👋🏻<br /><br />
-      I am Joseph Martin, currently an undergraduate Computer Science student at the
+      An undergraduate Computer Science student at
       <a href="https://unc.edu.ph/" target="_blank">University of Nueva Caceres</a>. My interest
       lies in front-end development.
     </p>
+
+    <div class="currently">
+      <h3>Currently:</h3>
+      <li>Learning DSA</li>
+      <li>Learning Vue, ExpressJs, and MongoDB</li>
+      <li>Building my Portfolio (Projects)</li>
+    </div>
     <br />
-    <p>
-      I actively participate in and contribute to OPEN-SOURCE and
-      <a href="https://mlh.io/" target="_blank">HACKATHONS</a>. This helps me stay updated in the
-      field, build my online presence, make friends, and build my skills and knowledge while having
-      fun.
-    </p>
+
+    <div class="connect">
+      <h3>Connect With Me:</h3>
+      <a href="https://www.linkedin.com/in/jfmartinz/">LinkedIn</a> |
+      <a href="https://github.com/jfmartinz">GitHub</a> |
+      <a href="https://twitter.com/jfmartinz">X (Twitter)</a>
+    </div>
     <br />
-    <p>When not coding, I enjoy spending my time listening to music, reading, and solitude.</p>
-    <br />
-    🌐 <a href="https://linktr.ee/jfmartinz" target="_blank">Connect with Me</a>
+    <details>
+      <summary>meowwww</summary>
+      <img src="/cat.jpg" alt="cat" class="cat" />
+    </details>
   </div>
 
   <div class="date">
@@ -35,6 +45,17 @@ export default {
 </script>
 
 <style scoped>
+.cat {
+  margin-top: 15px;
+  max-width: 100%;
+  width: 400px;
+}
+.currently {
+  margin-top: 10px;
+}
+.connect {
+  margin-top: 10px;
+}
 .content {
   padding: 0 1rem;
   margin-top: 20px;

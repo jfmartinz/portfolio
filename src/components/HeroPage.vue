@@ -11,7 +11,8 @@
     <div class="currently">
       <h3>Currently:</h3>
       <li>Learning DSA</li>
-      <li>Learning Vue, ExpressJs, and MongoDB</li>
+      <li>Vue, ExpressJs, and MongoDB</li>
+      <li>Linux</li>
       <li>Building my Portfolio (Projects)</li>
     </div>
     <br />

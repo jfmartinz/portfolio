@@ -31,7 +31,7 @@
   </div>
 
   <div class="date">
-    // Last updated on 29/7/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
+    // Last updated on 31/7/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
     <p>Temporary</p>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <h1>Joseph Martin</h1>
+    <h1>Joseph Martin | Front-End Vue Js Developer</h1>
 
     <p>
       An undergraduate Computer Science student at

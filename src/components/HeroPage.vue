@@ -21,6 +21,7 @@
       <h3>Connect With Me:</h3>
       <a href="https://www.linkedin.com/in/jfmartinz/">LinkedIn</a> |
       <a href="https://github.com/jfmartinz">GitHub</a> |
+      <a href="https://dev.to/jfmartinz">Blog (Dev.to)</a> |
       <a href="https://twitter.com/jfmartinz">X (Twitter)</a>
     </div>
     <br />

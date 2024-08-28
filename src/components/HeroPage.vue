@@ -5,21 +5,21 @@
     <p>
       <ul>
         <li>studies computer science at  <a href="https://unc.edu.ph/" target="_blank">University Of Nueva Caceres</a></li>
-        <li>my interest lies in front-end but does full stack as well.</li>
-        <li>loves open-source. participate in GSSOC, SWOC, and Hacktoberfest.</li>
-        <li>occasionally write blogs.</li>
+        <li>my interest lies in front-end. full stack? yes</li>
+        <li>loves open-source. GSSOC, SWOC, and Hacktoberfest</li>
+        <li>occasionally write blogs</li>
       </ul>
     </p>
 <br>
 <details>
-<summary>More about me :)</summary>
+<summary>more about me :)</summary>
   <ul>
-    <li>inquisitive.</li>
-    <li>easily bored (embrace boredom).</li>
+    <li>inquisitive</li>
+    <li>easily bored (embrace boredom)</li>
     <li>loves to read (usually self-help books)</li>
-    <li>loves DSA (not really)</li>
+    <li>loves DSA</li>
     <li>solitude (mainly for instropection)</li>
-    <li>loves to try and explore new things.</li>
+    <li>loves to try and explore new things</li>
   </ul>
 </details>
 

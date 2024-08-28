@@ -1,20 +1,30 @@
 <template>
   <div class="content">
-    <h1>Joseph Martin | Front-End Vue Js Developer</h1>
+    <h1>Joseph Martin</h1>
 
     <p>
-      An undergraduate Computer Science student at
-      <a href="https://unc.edu.ph/" target="_blank">University of Nueva Caceres</a>. My interest
-      lies in front-end development.
+      <ul>
+        <li>studies computer science at  <a href="https://unc.edu.ph/" target="_blank">University Of Nueva Caceres</a></li>
+        <li>my interest lies in front-end but does full stack as well.</li>
+        <li>loves open-source. participate in GSSOC, SWOC, and Hacktoberfest.</li>
+        <li>occasionally write blogs.</li>
+      </ul>
     </p>
+<br>
+<details>
+<summary>More about me :)</summary>
+  <ul>
+    <li>inquisitive.</li>
+    <li>easily bored (embrace boredom).</li>
+    <li>loves to read (usually self-help books)</li>
+    <li>loves DSA (not really)</li>
+    <li>solitude (mainly for instropection)</li>
+    <li>loves to try and explore new things.</li>
+  </ul>
+</details>
 
-    <div class="currently">
-      <h3>Currently:</h3>
-      <li>Learning DSA</li>
-      <li>Vue, ExpressJs, and MongoDB</li>
-      <li>Linux</li>
-      <li>Building my Portfolio (Projects)</li>
-    </div>
+
+ 
     <br />
 
     <div class="connect">

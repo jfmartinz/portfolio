@@ -1,49 +1,20 @@
 <template>
-  <div class="content">
-    <h1>Joseph Martin</h1>
-
-    <p>
-      <ul>
-        <li>studies computer science at  <a href="https://unc.edu.ph/" target="_blank">University Of Nueva Caceres</a></li>
-        <li>my interest lies in front-end. full stack? yes</li>
-        <li>loves open-source. GSSOC, SWOC, and Hacktoberfest</li>
-        <li>occasionally write blogs</li>
-      </ul>
-    </p>
-<br>
-<details>
-<summary>more about me :)</summary>
-  <ul>
-    <li>inquisitive</li>
-    <li>easily bored (embrace boredom)</li>
-    <li>loves to read (usually self-help books)</li>
-    <li>loves DSA</li>
-    <li>solitude (mainly for instropection)</li>
-    <li>loves to try and explore new things</li>
-  </ul>
-</details>
-
-
- 
+  <div>
+    <img src="/pepe.jpeg" alt="Pepe Frog" width="100%" />
+    <h1 style="text-align: center">jfmartinz</h1>
     <br />
-
     <div class="connect">
-      <h3>Connect With Me:</h3>
-      <a href="https://www.linkedin.com/in/jfmartinz/">LinkedIn</a> |
-      <a href="https://github.com/jfmartinz">GitHub</a> |
-      <a href="https://dev.to/jfmartinz">Blog (Dev.to)</a> |
-      <a href="https://twitter.com/jfmartinz">X (Twitter)</a>
+      <h3>connect with me:</h3>
+      <a href="https://www.linkedin.com/in/jfmartinz/">linkedin</a> |
+      <a href="https://github.com/jfmartinz">gitHub</a> |
+      <a href="https://dev.to/jfmartinz">blog (dev.to)</a> |
+      <a href="https://twitter.com/jfmartinz">x (twitter)</a>
     </div>
-    <br />
-    <details>
-      <summary>meowwww</summary>
-      <img src="/cat.jpg" alt="cat" class="cat" />
-    </details>
   </div>
 
   <div class="date">
-    // Last updated on 28/8/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
-    <p>Temporary</p>
+    // last updated on 31/8/24 by <a href="https://github.com/jfmartinz">jfmartinz</a>
+    <p>temporary</p>
   </div>
 </template>
 
@@ -66,17 +37,13 @@ export default {
   margin-top: 10px;
 }
 .connect {
-  margin-top: 10px;
-}
-.content {
-  padding: 0 1rem;
-  margin-top: 20px;
-  max-width: 800px;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .date {
   position: absolute;
-  bottom: 0;
+  bottom: -14px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

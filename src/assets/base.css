@@ -8,6 +8,15 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+:root {
+  --clr1: #42b883;
+  --textclr1: #c7c7c7;
+  --textclr2: #c2c2c2;
+
+  --fonts1: 'Fredoka', sans-serif;
+  --fonts2: 'Inter', sans-serif;
+}
+
 html {
   line-height: 1.15; /* 1 */
   text-size-adjust: 100%; /* 2 */

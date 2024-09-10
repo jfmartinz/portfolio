@@ -1,1 +1,25 @@
 @import './base.css';
+
+body {
+  background-color: var(--bg-color);
+  font-size: 10px;
+  letter-spacing: 2px;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/* Horizontal line */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(#313131 0.5px, transparent 0.5px);
+  background-size: 100% 2px; /* Adjust the height to change line spacing */
+  pointer-events: none; /* Allows clicking through the overlay */
+  z-index: 1000; /* Ensures the lines are on top */
+}

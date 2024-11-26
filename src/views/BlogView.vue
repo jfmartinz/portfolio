@@ -50,11 +50,11 @@ export default {
     // Fetch blog post from the API
     async getBlogPost() {
       try {
-        const response = await axios.get('http://localhost/api_jfmartinz/devBlogApi.php')
-        this.blogPosts = response.data
-        // Limit the number of blog posts to 3
-        if (this.blogPosts.length > 3) {
-          this.blogPosts = this.blogPosts.slice(0, 3)
+        const response = await axios.get('https://dev-to-api-liard.vercel.app/api/dev-blogs')
+        // change this to 3 to limit the number of blog posts from 3 blogs
+        if (response.data.length > 2) {
+          response.data = response.data.slice(0, 3)
+          this.blogPosts = response.data
         }
       } catch (error) {
         console.error('Error fetching blog post: ', error)

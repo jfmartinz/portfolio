@@ -3,7 +3,12 @@
     <h1 class="header__title">latest blog posts</h1>
     <p class="header__description">
       writes about open-source, cs, learnings/experiences and anything worth sharing.
-      <a href="https://dev.to/jfmartinz" target="_blank" rel="noopener noreferrer" class="devto"
+      <a
+        href="https://dev.to/jfmartinz"
+        data-umami-event="Dev.to Link"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="devto"
         >dev.to</a
       >
       account.

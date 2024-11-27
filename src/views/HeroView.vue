@@ -34,7 +34,7 @@
 
     <section class="hero__resume">
       <StickyNote :size="size" :color="textclr1" class="hero__resume-icon" />
-      <a href="#" class="hero__resume-link">MY RESUME</a>
+      <a href="#" class="hero__resume-link" data-umami-event="Resume Button">MY RESUME</a>
     </section>
   </main>
 </template>

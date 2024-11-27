@@ -1,13 +1,25 @@
 <template>
   <aside :class="{ 'aside--sticky': isSticky }">
     <section class="icons">
-      <a href="https://www.linkedin.com/in/jfmartinz/" target="_blank" title="LinkedIn"
+      <a
+        href="https://www.linkedin.com/in/jfmartinz/"
+        target="_blank"
+        title="LinkedIn"
+        data-umami-event="LinkedIn Icon"
         ><Linkedin :color="textclr3" class="icons-linkedin"
       /></a>
-      <a href="https://github.com/jfmartinz" target="_blank" title="GitHub"
+      <a
+        href="https://github.com/jfmartinz"
+        target="_blank"
+        title="GitHub"
+        data-umami-event="GitHub Icon"
         ><Github :color="textclr3" class="icons-github"
       /></a>
-      <a href="https://twitter.com/jfmartinz" target="_blank" title="X/Twitter"
+      <a
+        href="https://twitter.com/jfmartinz"
+        target="_blank"
+        title="X/Twitter"
+        data-umami-event="Twitter Icon"
         ><Twitter :color="textclr3" class="icons-twitter"
       /></a>
     </section>
@@ -20,6 +32,7 @@
           target="_blank"
           title="Email me!"
           class="email__link"
+          data-umami-event="Email Link"
           >se.josephmartin@gmail.com</a
         >
       </p>

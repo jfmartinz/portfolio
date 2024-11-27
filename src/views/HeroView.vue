@@ -53,8 +53,9 @@ export default {
         { alt: 'CSS', title: 'CSS', src: '/css3.svg' },
         { alt: 'JAVASCRIPT', title: 'JAVASCRIPT', src: '/js.svg' },
         { alt: 'VUE', title: 'VUE', src: '/vue.svg' },
-        { alt: 'PHP', title: 'PHP', src: '/php.svg' },
-        { alt: 'MYSQL', title: 'MYSQL', src: '/mysql.svg' }
+        { alt: 'NODEJS', title: 'NODE', src: '/icons8-nodejs.svg' },
+        { alt: 'EXPRESSJS', title: 'EXPRESSJS', src: '/icons8-express-js.svg' },
+        { alt: 'MONGODB', title: 'MONGODB', src: '/icons8-mongodb.svg' }
       ]
     }
   },

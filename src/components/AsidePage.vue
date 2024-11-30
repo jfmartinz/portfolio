@@ -32,6 +32,7 @@
           target="_blank"
           title="Email me!"
           class="email__link"
+          rel="noopener noreferrer"
           data-umami-event="Email Link"
           >se.josephmartin@gmail.com</a
         >

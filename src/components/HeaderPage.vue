@@ -54,13 +54,25 @@
           <!-- Socials -->
           <section class="mobile__aside">
             <section class="mobile__socials">
-              <a href="https://www.linkedin.com/in/jfmartinz/" target="_blank" title="LinkedIn"
+              <a
+                href="https://www.linkedin.com/in/jfmartinz/"
+                target="_blank"
+                title="LinkedIn"
+                rel="noopener noreferrer"
                 ><Linkedin :color="textclr3" class="mobile__socials--linkedin"
               /></a>
-              <a href="https://github.com/jfmartinz" target="_blank" title="GitHub"
+              <a
+                href="https://github.com/jfmartinz"
+                target="_blank"
+                title="GitHub"
+                rel="noopener noreferrer"
                 ><Github :color="textclr3" class="mobile__socials--github"
               /></a>
-              <a href="https://twitter.com/jfmartinz" target="_blank" title="X/Twitter"
+              <a
+                href="https://twitter.com/jfmartinz"
+                target="_blank"
+                title="X/Twitter"
+                rel="noopener noreferrer"
                 ><Twitter :color="textclr3" class="mobile__socials--twitter"
               /></a>
             </section>

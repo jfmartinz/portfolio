@@ -5,6 +5,7 @@
         href="https://www.linkedin.com/in/jfmartinz/"
         target="_blank"
         title="LinkedIn"
+        rel="noopener noreferrer"
         data-umami-event="LinkedIn Icon"
         ><Linkedin :color="textclr3" class="icons-linkedin"
       /></a>
@@ -12,6 +13,7 @@
         href="https://github.com/jfmartinz"
         target="_blank"
         title="GitHub"
+        rel="noopener noreferrer"
         data-umami-event="GitHub Icon"
         ><Github :color="textclr3" class="icons-github"
       /></a>
@@ -19,6 +21,7 @@
         href="https://twitter.com/jfmartinz"
         target="_blank"
         title="X/Twitter"
+        rel="noopener noreferrer"
         data-umami-event="Twitter Icon"
         ><Twitter :color="textclr3" class="icons-twitter"
       /></a>

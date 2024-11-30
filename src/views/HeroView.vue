@@ -2,16 +2,16 @@
   <main class="hero">
     <section class="hero__headings">
       <h1 class="hero__title">hey! i am joseph martin</h1>
-      <h2 class="hero__subtitle">front-end <span class="hero__highlight">VUEJS</span> dev</h2>
+      <h2 class="hero__subtitle">front-end <span class="hero__highlight">VUE.JS</span> dev</h2>
     </section>
 
     <section class="hero__description">
       <p>
-        i'm currently third-year computer science student at the university of nueva caceres in the
-        Philippines.
+        i'm a third-year computer science student at the university of nueva caceres, philippines
+        📍, specializing in front-end development using <span class="hero__highlight">VUE.JS</span>.
       </p>
 
-      <p>looking for an summer internship to apply my skills in real-life application</p>
+      <p>seeking summer internship opportunities to apply my skills in real-world projects.</p>
     </section>
 
     <section class="hero__stack">
@@ -91,7 +91,7 @@ export default {
   font-size: 2.5rem;
   margin: 0;
 }
-.hero__headings .hero__highlight {
+.hero__highlight {
   color: var(--textclr1);
 }
 /* first paragraph */

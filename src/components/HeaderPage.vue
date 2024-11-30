@@ -116,7 +116,7 @@ export default {
       routes: [
         { name: 'home', path: '/', styleActive: 'active' },
         { name: 'projects', path: '/projects', styleActive: 'active' },
-        { name: 'dev.to blog', path: '/blog', styleActive: 'active' }
+        { name: 'blog', path: '/blog', styleActive: 'active' }
       ]
     }
   },

@@ -31,3 +31,9 @@ A simple vueJS portfolio by [Joseph Martin](https://github.com/jfmartinz) built 
 1. Clone the repo
 2. Install the required dependencies. `npm install`
 3. and then `npm run dev`
+
+## Connect With Me :)
+- [LinkedIn](https://www.linkedin.com/in/jfmartinz/)
+- [GitHub](https://github.com/jfmartinz)
+- [X (Twitter)](https://twitter.com/jfmartinz)
+

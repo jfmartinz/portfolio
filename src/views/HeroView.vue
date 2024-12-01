@@ -11,12 +11,12 @@
         📍, specializing in front-end development using <span class="hero__highlight">VUE.JS</span>.
       </p>
 
-      <p>seeking summer internship opportunities to apply my skills in real-world projects.</p>
+      <p>seeking summer internship opportunity to apply my skills in real-world projects.</p>
     </section>
 
     <section class="hero__stack">
       <div class="stack">
-        <p class="stack__title">my stack:</p>
+        <p class="stack__title">skills:</p>
         <div class="stack__techs">
           <img
             class="stack__img"
@@ -34,7 +34,7 @@
 
     <section class="hero__resume">
       <StickyNote :size="size" :color="textclr1" class="hero__resume-icon" />
-      <a href="#" class="hero__resume-link" data-umami-event="Resume Button">MY RESUME</a>
+      <a href="#" class="hero__resume-link" data-umami-event="Resume Button">RESUME (PDF)</a>
     </section>
   </main>
 </template>

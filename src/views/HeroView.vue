@@ -26,6 +26,7 @@
             :title="tech.title"
             :src="tech.src"
             :alt="tech.alt"
+            v-tooltip="tech.title"
           />
         </div>
       </div>
@@ -142,5 +143,6 @@ export default {
   min-width: 50px;
   height: 30px;
   object-fit: contain;
+  cursor: pointer;
 }
 </style>

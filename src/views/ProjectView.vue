@@ -27,6 +27,7 @@
               :src="tech.src"
               :alt="tech.alt"
               class="project__img"
+              v-tooltip="tech.title"
             />
           </div>
         </div>
@@ -165,6 +166,7 @@ export default {
   min-width: 50px;
   height: 30px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 /* header styles */

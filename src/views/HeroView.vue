@@ -7,8 +7,7 @@
 
     <section class="hero__description">
       <p>
-        i'm a third-year computer science student at the university of nueva caceres, philippines
-        📍, specializing in front-end development using <span class="hero__highlight">VUE.JS</span>.
+        i'm a third-year computer science student at the university of nueva caceres, philippines 📍
       </p>
 
       <p>seeking summer internship opportunity to apply my skills in real-world projects.</p>

@@ -34,7 +34,7 @@
 
     <section class="hero__resume">
       <StickyNote :size="size" :color="textclr1" class="hero__resume-icon" />
-      <a href="#" class="hero__resume-link" data-umami-event="Resume Button">RESUME (PDF)</a>
+      <a href="#" class="hero__resume-link" data-umami-event="Resume Button">my resume</a>
     </section>
   </main>
 </template>
@@ -47,7 +47,7 @@ export default {
   data() {
     return {
       textclr1: 'var(--textclr1)',
-      size: 24,
+      size: 17,
       techs: [
         { alt: 'HTML', title: 'HTML', src: '/html.svg' },
         { alt: 'CSS', title: 'CSS', src: '/css3.svg' },

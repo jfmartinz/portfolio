@@ -37,8 +37,10 @@
           class="email__link"
           rel="noopener noreferrer"
           data-umami-event="Email Link"
-          >se.josephmartin@gmail.com</a
         >
+          se.josephmartin@gmail.com
+          <SquareArrowOutUpRight :size="size" class="email__icon" />
+        </a>
       </p>
     </section>
   </aside>
@@ -48,20 +50,22 @@
 import { Linkedin } from 'lucide-vue-next'
 import { Twitter } from 'lucide-vue-next'
 import { Github } from 'lucide-vue-next'
+import { SquareArrowOutUpRight } from 'lucide-vue-next'
 
 export default {
   name: 'AsidePage',
   data() {
     return {
       textclr3: 'var(--textclr3)',
-      size: 20,
+      size: 17,
       isSticky: false
     }
   },
   components: {
     Linkedin,
     Twitter,
-    Github
+    Github,
+    SquareArrowOutUpRight
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
@@ -114,6 +118,10 @@ export default {
   font-family: var(--fonts2);
   font-weight: 200;
   user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 .email .email__link:hover {
   color: var(--texthvr1);
